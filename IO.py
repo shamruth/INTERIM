@@ -1,3 +1,6 @@
 print("WELCOME TO IO CODE")
-number=int(input("ENTER A NUMBER:"))
-print(number)
+try:
+    number=int(input("ENTER A NUMBER:"))
+    print(number)
+except:
+    number!=(int)
