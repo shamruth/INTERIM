@@ -1,0 +1,20 @@
+D:\CODSOFT\INTERIM>https://github.com/shamruth/INTERIM.git
+'https:' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\CODSOFT\INTERIM>git clone https://github.com/shamruth/INTERIM.git
+Cloning into 'INTERIM'...
+warning: You appear to have cloned an empty repository.
+
+D:\CODSOFT\INTERIM>git config --global user.name "shamruth"
+
+D:\CODSOFT\INTERIM>git config --global user.email "shamruth2822006@gmail.com"
+
+D:\CODSOFT\INTERIM>git clone https://github.com/shamruth/INTERIM.git
+fatal: destination path 'INTERIM' already exists and is not an empty directory.
+
+D:\CODSOFT\INTERIM>
+ above codes are cmd codes
+ 
+git add
+git commit
