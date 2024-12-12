@@ -1,0 +1,319 @@
+Microsoft Windows [Version 10.0.22631.4541]
+(c) Microsoft Corporation. All rights reserved.
+
+D:\CODSOFT\INTERIM>https://github.com/shamruth/INTERIM.git
+'https:' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\CODSOFT\INTERIM>git clone https://github.com/shamruth/INTERIM.git
+Cloning into 'INTERIM'...
+warning: You appear to have cloned an empty repository.
+
+D:\CODSOFT\INTERIM>git config --global user.name "shamruth"
+
+D:\CODSOFT\INTERIM>git config --global user.email "shamruth2822006@gmail.com"
+
+D:\CODSOFT\INTERIM>git clone https://github.com/shamruth/INTERIM.git
+fatal: destination path 'INTERIM' already exists and is not an empty directory.
+
+D:\CODSOFT\INTERIM>cd.\INTERIM\
+
+D:\CODSOFT\INTERIM\INTERIM>git add .\process.txt
+
+D:\CODSOFT\INTERIM\INTERIM>git commit -m "^X"
+
+D:\CODSOFT\INTERIM\INTERIM>git commit -m "feat"
+[main (root-commit) e9d90ee] feat
+ 1 file changed, 20 insertions(+)
+ create mode 100644 process.txt
+
+D:\CODSOFT\INTERIM\INTERIM>git push origin main
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 6 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 514 bytes | 257.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/shamruth/INTERIM.git
+ * [new branch]      main -> main
+
+D:\CODSOFT\INTERIM\INTERIM>git add .\process.txt
+
+D:\CODSOFT\INTERIM\INTERIM>git commit -m "fix"
+[main 60b776e] fix
+ 1 file changed, 26 insertions(+), 6 deletions(-)
+
+D:\CODSOFT\INTERIM\INTERIM>git push origin main
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 6 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 870 bytes | 435.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/shamruth/INTERIM.git
+   e9d90ee..60b776e  main -> main
+
+D:\CODSOFT\INTERIM\INTERIM>git pull
+remote: Enumerating objects: 5, done.
+remote: Counting objects: 100% (5/5), done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 3 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+Unpacking objects: 100% (3/3), 1015 bytes | 112.00 KiB/s, done.
+From https://github.com/shamruth/INTERIM
+   60b776e..85a77da  main       -> origin/main
+Updating 60b776e..85a77da
+Fast-forward
+ process.txt | 2 ++
+ 1 file changed, 2 insertions(+)
+
+D:\CODSOFT\INTERIM\INTERIM>
+
+D:\CODSOFT\INTERIM\INTERIM>git commit -m "feat:added pull cmd"
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   process.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+D:\CODSOFT\INTERIM\INTERIM>git commit -a -m "feat:added pull cmd"
+[main 186640b] feat:added pull cmd
+ 1 file changed, 13 insertions(+)
+
+D:\CODSOFT\INTERIM\INTERIM>git commit -a -m"feat:new line"
+[main 3c22f70] feat:new line
+ 1 file changed, 5 insertions(+), 1 deletion(-)
+
+D:\CODSOFT\INTERIM\INTERIM>git commit -a -m "feat:new line"
+On branch main
+Your branch is ahead of 'origin/main' by 2 commits.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+D:\CODSOFT\INTERIM\INTERIM>git push
+Enumerating objects: 8, done.
+Counting objects: 100% (8/8), done.
+Delta compression using up to 6 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (6/6), 806 bytes | 403.00 KiB/s, done.
+Total 6 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (2/2), completed with 1 local object.
+To https://github.com/shamruth/INTERIM.git
+   85a77da..3c22f70  main -> main
+
+D:\CODSOFT\INTERIM\INTERIM>git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 6 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 325 bytes | 325.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/shamruth/INTERIM.git
+   3c22f70..624aae6  main -> main
+
+D:\CODSOFT\INTERIM\INTERIM>git add .\I/O in python.py
+fatal: pathspec '.\I/O' did not match any files
+
+D:\CODSOFT\INTERIM\INTERIM>git status
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+D:\CODSOFT\INTERIM\INTERIM>git diff
+
+D:\CODSOFT\INTERIM\INTERIM>git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 6 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 363 bytes | 181.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/shamruth/INTERIM.git
+   d44ffe8..a1c1f5e  main -> main
+
+D:\CODSOFT\INTERIM\INTERIM>git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   IO.py
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+D:\CODSOFT\INTERIM\INTERIM>git diff
+diff --git a/IO.py b/IO.py
+index 8576318..b9eaf9b 100644
+--- a/IO.py
++++ b/IO.py
+@@ -1,3 +1,6 @@
+ print("WELCOME TO IO CODE")
+-number=int(input("ENTER A NUMBER:"))
+-print(number)
++try:
++    number=int(input("ENTER A NUMBER:"))
++    print(number)
++except:
++    number!=(int)
+\ No newline at end of file
+
+D:\CODSOFT\INTERIM\INTERIM>git commit -a -m "feat: added try and catch"
+[main 6071e50] feat: added try and catch
+ 1 file changed, 5 insertions(+), 2 deletions(-)
+
+D:\CODSOFT\INTERIM\INTERIM>git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 6 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 373 bytes | 373.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/shamruth/INTERIM.git
+   a1c1f5e..6071e50  main -> main
+
+D:\CODSOFT\INTERIM\INTERIM>git banch
+git: 'banch' is not a git command. See 'git --help'.
+
+The most similar command is
+        branch
+
+D:\CODSOFT\INTERIM\INTERIM>git branch
+* main
+
+D:\CODSOFT\INTERIM\INTERIM>git chechkout -b "PYTHON"
+git: 'chechkout' is not a git command. See 'git --help'.
+
+The most similar command is
+        checkout
+
+D:\CODSOFT\INTERIM\INTERIM>git checkout -b "PYTHON"
+Switched to a new branch 'PYTHON'
+
+D:\CODSOFT\INTERIM\INTERIM>git branch
+* PYTHON
+  main
+
+D:\CODSOFT\INTERIM\INTERIM>git checkout -b"TEXT"
+M       process.txt
+Switched to a new branch 'TEXT'
+
+D:\CODSOFT\INTERIM\INTERIM>git branch
+  PYTHON
+* TEXT
+  main
+
+D:\CODSOFT\INTERIM\INTERIM>git push origin TEXT
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote:
+remote: Create a pull request for 'TEXT' on GitHub by visiting:
+remote:      https://github.com/shamruth/INTERIM/pull/new/TEXT
+remote:
+To https://github.com/shamruth/INTERIM.git
+ * [new branch]      TEXT -> TEXT
+
+D:\CODSOFT\INTERIM\INTERIM>git commit -a -m "feat: added info about git branching"
+[TEXT 69ec860] feat: added info about git branching
+ 1 file changed, 42 insertions(+), 1 deletion(-)
+
+D:\CODSOFT\INTERIM\INTERIM>git push origin TEXT
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 6 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 926 bytes | 926.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/shamruth/INTERIM.git
+   6071e50..69ec860  TEXT -> TEXT
+
+D:\CODSOFT\INTERIM\INTERIM>git commit -a -m "feat: added finally block visible only to PY
+THON branch"
+[TEXT 6d6c473] feat: added finally block visible only to PYTHON branch
+ 1 file changed, 3 insertions(+), 1 deletion(-)
+
+D:\CODSOFT\INTERIM\INTERIM>git push origin PYTHON
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote:
+remote: Create a pull request for 'PYTHON' on GitHub by visiting:
+remote:      https://github.com/shamruth/INTERIM/pull/new/PYTHON
+remote:
+To https://github.com/shamruth/INTERIM.git
+ * [new branch]      PYTHON -> PYTHON
+
+D:\CODSOFT\INTERIM\INTERIM>git checkout PYTHON
+Switched to branch 'PYTHON'
+
+D:\CODSOFT\INTERIM\INTERIM>git commit -a -m "feat:added finally block to python branch"
+On branch PYTHON
+nothing to commit, working tree clean
+
+D:\CODSOFT\INTERIM\INTERIM>git push origin PYTHON
+Everything up-to-date
+
+D:\CODSOFT\INTERIM\INTERIM>git status
+On branch PYTHON
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   IO.py
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+D:\CODSOFT\INTERIM\INTERIM>git diff
+diff --git a/IO.py b/IO.py
+index b9eaf9b..f5279fc 100644
+--- a/IO.py
++++ b/IO.py
+@@ -3,4 +3,6 @@ try:
+     number=int(input("ENTER A NUMBER:"))
+     print(number)
+ except:
+-    number!=(int)
+\ No newline at end of file
++    number!=(int)
++finally:
++    print("VISIBLE TO PYTHON BRANCH")
+\ No newline at end of file
+
+D:\CODSOFT\INTERIM\INTERIM>git checkout
+M       IO.py
+
+D:\CODSOFT\INTERIM\INTERIM>git branch
+* PYTHON
+  TEXT
+  main
+
+D:\CODSOFT\INTERIM\INTERIM>git commit -a -m "feat:finally block to PYTHON BRANCH"
+[PYTHON 9bf0a4f] feat:finally block to PYTHON BRANCH
+ 1 file changed, 3 insertions(+), 1 deletion(-)
+
+D:\CODSOFT\INTERIM\INTERIM>git push
+fatal: The current branch PYTHON has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin PYTHON
+
+To have this happen automatically for branches without a tracking
+upstream, see 'push.autoSetupRemote' in 'git help config'.
+
+
+D:\CODSOFT\INTERIM\INTERIM>git push origin PYTHON
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 6 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 374 bytes | 374.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/shamruth/INTERIM.git
+   6071e50..9bf0a4f  PYTHON -> PYTHON
+
+D:\CODSOFT\INTERIM\INTERIM>gi
