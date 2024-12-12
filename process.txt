@@ -40,3 +40,16 @@ To https://github.com/shamruth/INTERIM.git
  * [new branch]      main -> main
 
 git pull:every changes made in the git hub repository on the cloud can be obtained using git pull command
+
+D:\CODSOFT\INTERIM\INTERIM>git pull
+remote: Enumerating objects: 5, done.
+remote: Counting objects: 100% (5/5), done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 3 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+Unpacking objects: 100% (3/3), 1015 bytes | 112.00 KiB/s, done.
+From https://github.com/shamruth/INTERIM
+   60b776e..85a77da  main       -> origin/main
+Updating 60b776e..85a77da
+Fast-forward
+ process.txt | 2 ++
+ 1 file changed, 2 insertions(+)
