@@ -53,3 +53,7 @@ Updating 60b776e..85a77da
 Fast-forward
  process.txt | 2 ++
  1 file changed, 2 insertions(+)
+
+ git commit -a -m "feat:added pull cmd"
+
+ it adds the commit with commit message a single line alternative code
