@@ -57,3 +57,5 @@ Fast-forward
  git commit -a -m "feat:added pull cmd"
 
  it adds the commit with commit message a single line alternative code
+
+ git status :shows the status of the git in cmd
