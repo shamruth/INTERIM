@@ -4,3 +4,5 @@ try:
     print(number)
 except:
     number!=(int)
+finally:
+    print("VISIBLE TO PYTHON BRANCH")
