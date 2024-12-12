@@ -59,3 +59,44 @@ Fast-forward
  it adds the commit with commit message a single line alternative code
 
  git status :shows the status of the git in cmd
+
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   IO.py
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+git diff: shows what is the difference between two file changes
+
+D:\CODSOFT\INTERIM\INTERIM>git diff
+diff --git a/IO.py b/IO.py
+index 8576318..b9eaf9b 100644
+--- a/IO.py
++++ b/IO.py
+@@ -1,3 +1,6 @@
+ print("WELCOME TO IO CODE")
+-number=int(input("ENTER A NUMBER:"))
+-print(number)
++try:
++    number=int(input("ENTER A NUMBER:"))
++    print(number)
++except:
++    number!=(int)
+\ No newline at end of file
+
+
+branch are used when multiple developers are connected with one another and the one file changed is not affected by others
+
+git branch: used to show which branch we are working currently
+
+git checkout -b "new branchname":used to create new branch
+
+git checkout branchname: used to switch branches
+
+after switching branch we need to use additional push command
+
+git push origin "new branch"
