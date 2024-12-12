@@ -10,11 +10,31 @@ D:\CODSOFT\INTERIM>git config --global user.name "shamruth"
 
 D:\CODSOFT\INTERIM>git config --global user.email "shamruth2822006@gmail.com"
 
-D:\CODSOFT\INTERIM>git clone https://github.com/shamruth/INTERIM.git
-fatal: destination path 'INTERIM' already exists and is not an empty directory.
-
-D:\CODSOFT\INTERIM>
  above codes are cmd codes
  
-git add
-git commit
+git add-adds  the current file to git but does not store it
+
+D:\CODSOFT\INTERIM>cd.\INTERIM\
+
+D:\CODSOFT\INTERIM\INTERIM>git add .\process.txt
+
+
+git commit -m "use conventional commit website message" :-m for message
+
+D:\CODSOFT\INTERIM\INTERIM>git commit -m "feat"
+[main (root-commit) e9d90ee] feat
+ 1 file changed, 20 insertions(+)
+ create mode 100644 process.txt
+
+
+git push origin main/master :origin refers to the https location of repository main/master is the branch we commonly use main
+
+D:\CODSOFT\INTERIM\INTERIM>git push origin main
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 6 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 514 bytes | 257.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/shamruth/INTERIM.git
+ * [new branch]      main -> main
