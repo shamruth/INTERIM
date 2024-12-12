@@ -1,3 +1,3 @@
 print("WELCOME TO IO CODE")
-a=int(input("ENTER A NUMBER:"))
-print(a)
+number=int(input("ENTER A NUMBER:"))
+print(number)
