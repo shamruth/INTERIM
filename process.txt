@@ -38,3 +38,5 @@ Writing objects: 100% (3/3), 514 bytes | 257.00 KiB/s, done.
 Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
 To https://github.com/shamruth/INTERIM.git
  * [new branch]      main -> main
+
+git pull:every changes made in the git hub repository on the cloud can be obtained using git pull command
