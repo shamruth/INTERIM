@@ -15,4 +15,3 @@ def bclicked():
 button=tkinter.Button(window,text="ENTER",command=bclicked)
 button.grid(column=1,row=3)
 window.mainloop()
-print("VERIFYING GIT HUB")  
