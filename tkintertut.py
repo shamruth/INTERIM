@@ -14,4 +14,4 @@ def bclicked():
     c.grid()
 button=tkinter.Button(window,text="ENTER",command=bclicked)
 button.grid(column=1,row=3)
-window.mainloop()
+window.mainloop()\e';tlhkjrtiwhji
